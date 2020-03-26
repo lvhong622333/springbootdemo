@@ -1,61 +1,419 @@
-2019-02-14 16:22:19,370 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
-2019-02-14 16:22:19,379 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
-2019-02-14 16:22:20,148  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
-2019-02-14 16:22:20,156  INFO StandardService:173 ---- Starting service [Tomcat]
-2019-02-14 16:22:20,157  INFO StandardEngine:173 ---- Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-02-14 16:22:20,164  INFO AprLifecycleListener:173 ---- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/lvhong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-14 16:22:20,396  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-02-14 16:22:20,400  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
-2019-02-14 16:22:20,830 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-14 16:22:20,837  INFO StandardService:173 ---- Stopping service [Tomcat]
-2019-02-14 16:24:37,967 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
-2019-02-14 16:24:37,973 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
-2019-02-14 16:24:38,567  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
-2019-02-14 16:24:38,574  INFO StandardService:173 ---- Starting service [Tomcat]
-2019-02-14 16:24:38,575  INFO StandardEngine:173 ---- Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-02-14 16:24:38,580  INFO AprLifecycleListener:173 ---- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/lvhong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-14 16:24:38,774  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-02-14 16:24:38,780  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
-2019-02-14 16:24:39,155 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-14 16:24:39,272 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
-2019-02-14 16:24:39,272 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
-2019-02-14 16:24:39,551 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
-2019-02-14 16:24:39,822  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
-2019-02-14 16:24:39,842  INFO NioSelectorPool:173 ---- Using a shared selector for servlet write/read
-2019-02-14 16:24:40,608  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-14 16:24:40,836  INFO DruidDataSource:928 ---- {dataSource-1,my_test} inited
-2019-02-14 16:25:53,749  INFO DruidDataSource:1823 ---- {dataSource-1} closed
-2019-02-14 16:28:38,708 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
-2019-02-14 16:28:38,715 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
-2019-02-14 16:28:39,356  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
-2019-02-14 16:28:39,363  INFO StandardService:173 ---- Starting service [Tomcat]
-2019-02-14 16:28:39,363  INFO StandardEngine:173 ---- Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-02-14 16:28:39,369  INFO AprLifecycleListener:173 ---- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/lvhong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-14 16:28:39,547  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-02-14 16:28:39,550  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
-2019-02-14 16:28:39,925 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-14 16:28:39,986 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
-2019-02-14 16:28:39,987 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
-2019-02-14 16:28:40,226 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
-2019-02-14 16:28:40,435  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
-2019-02-14 16:28:40,453  INFO NioSelectorPool:173 ---- Using a shared selector for servlet write/read
-2019-02-14 16:28:41,358  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-14 16:28:41,569  INFO DruidDataSource:928 ---- {dataSource-1,my_test} inited
-2019-02-14 16:30:04,440  INFO DruidDataSource:1823 ---- {dataSource-1} closed
-2019-02-14 16:30:53,120 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
-2019-02-14 16:30:53,127 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
-2019-02-14 16:30:53,756  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
-2019-02-14 16:30:53,764  INFO StandardService:173 ---- Starting service [Tomcat]
-2019-02-14 16:30:53,764  INFO StandardEngine:173 ---- Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-02-14 16:30:53,769  INFO AprLifecycleListener:173 ---- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/lvhong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-14 16:30:53,947  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-02-14 16:30:53,950  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
-2019-02-14 16:30:54,324 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-14 16:30:54,386 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
-2019-02-14 16:30:54,387 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
-2019-02-14 16:30:54,628 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
-2019-02-14 16:30:54,840  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
-2019-02-14 16:30:54,859  INFO NioSelectorPool:173 ---- Using a shared selector for servlet write/read
-2019-02-14 16:30:55,636  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-14 16:30:55,851  INFO DruidDataSource:928 ---- {dataSource-1,my_test} inited
-2019-02-14 16:35:40,361  INFO DruidDataSource:1823 ---- {dataSource-1} closed
+2020-03-26 09:53:47,201 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 09:53:47,212 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 09:53:47,837  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 09:53:47,838  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 09:53:47,838  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 09:53:48,099  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 09:53:48,103  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 09:53:48,159 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 09:53:48,403 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 09:53:48,524 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 09:53:48,525 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 09:53:48,784 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 09:53:48,930  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 09:53:55,100  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 10:08:46,714 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 10:08:46,724 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 10:08:47,221  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 10:08:47,221  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 10:08:47,222  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 10:08:47,431  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 10:08:47,437  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 10:08:47,486 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 10:08:47,748 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 10:08:47,809 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 10:08:47,809 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 10:08:48,017 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 10:08:48,142  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 10:09:00,319  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 10:32:52,128 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 10:32:52,136 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 10:32:52,665  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 10:32:52,665  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 10:32:52,666  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 10:32:52,897  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 10:32:52,903  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 10:32:52,950 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 10:32:53,163 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 10:32:53,227 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 10:32:53,228 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 10:32:53,445 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 10:32:53,587  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 10:34:20,619  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 12:47:24,854 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 12:47:24,864 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 12:47:25,423  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 12:47:25,424  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 12:47:25,424  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 12:47:25,673  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 12:47:25,677  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 12:47:25,724 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 12:47:25,958 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 12:47:26,034 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 12:47:26,034 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 12:47:26,271 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 12:47:26,408  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 12:47:34,012  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 12:55:11,484 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 12:55:11,491 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 12:55:11,989  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 12:55:11,990  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 12:55:11,990  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 12:55:12,204  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 12:55:12,208  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 12:55:12,250 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 12:55:12,466 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 12:55:12,532 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 12:55:12,533 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 12:55:12,749 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 12:55:12,871  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 12:55:23,673  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 13:27:04,769 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 13:27:04,780 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 13:27:05,374  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 13:27:05,375  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 13:27:05,376  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 13:27:05,687  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 13:27:05,691  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 13:27:05,746 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 13:27:05,967 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 13:27:06,033 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 13:27:06,034 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 13:27:06,243 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 13:27:06,375  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 13:27:10,726  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 13:58:08,819 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 13:58:08,827 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 13:58:09,334  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 13:58:09,335  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 13:58:09,335  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 13:58:09,555  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 13:58:09,559  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 13:58:09,600 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 13:58:09,831 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 13:58:09,900 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 13:58:09,901 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 13:58:10,122 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 13:58:10,260  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 14:01:29,155  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:13:29,235 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 14:13:29,246 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 14:13:29,788  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 14:13:29,788  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 14:13:29,789  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:13:30,005  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:13:30,010  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 14:13:30,051 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 14:13:30,306 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 14:13:30,373 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 14:13:30,374 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 14:13:30,585 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 14:13:30,721  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 14:13:35,952  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:45:17,839 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 14:45:17,846 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 14:45:18,407  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 14:45:18,408  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 14:45:18,409  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:45:18,693  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:45:18,699  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 14:45:18,744 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 14:45:18,974 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 14:45:19,039 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 14:45:19,039 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 14:45:19,261 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 14:45:19,406  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 14:45:26,335  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:58:34,473 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 14:58:34,483 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 14:58:35,097  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 14:58:35,097  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 14:58:35,098  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:58:35,327  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:58:35,331  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 14:58:35,375 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 14:58:35,598 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 14:58:35,664 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 14:58:35,665 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 14:58:35,882 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 14:58:36,013  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 14:58:41,728  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:11:20,569 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 15:11:20,577 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 15:11:21,064  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 15:11:21,065  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 15:11:21,065  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:11:21,272  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:11:21,276  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 15:11:21,317 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 15:11:21,533 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 15:11:21,596 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 15:11:21,597 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 15:11:21,809 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 15:11:21,940  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 15:11:28,228  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:39:20,114 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 15:39:20,128 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 15:39:20,690  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 15:39:20,690  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 15:39:20,691  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:39:20,909  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:39:20,913  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 15:39:20,958 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 15:39:21,272 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 15:39:21,343 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 15:39:21,343 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 15:39:21,579 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 15:39:21,712  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 15:39:36,373  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:56:37,212 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 15:56:37,221 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 15:56:37,809  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 15:56:37,809  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 15:56:37,810  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:56:38,029  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:56:38,035  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 15:56:38,087 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 15:56:38,329 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 15:56:38,401 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 15:56:38,401 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 15:56:38,647 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 15:56:38,784  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 15:56:54,088  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:57:07,638 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 15:57:07,645 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 15:57:08,138  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 15:57:08,139  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 15:57:08,139  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:57:08,346  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:57:08,350  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 15:57:08,392 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 15:57:08,611 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 15:57:08,675 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 15:57:08,675 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 15:57:08,886 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 15:57:09,015  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 15:57:18,847  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:57:51,569 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 15:57:51,577 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 15:57:52,076  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 15:57:52,076  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 15:57:52,077  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:57:52,287  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:57:52,290  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 15:57:52,335 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 15:57:52,549 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 15:57:52,611 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 15:57:52,612 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 15:57:52,819 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 15:57:52,944  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 15:57:59,409  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:27:45,172 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 16:27:45,181 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 16:27:45,708  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 16:27:45,709  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 16:27:45,709  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:27:45,915  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:27:45,919  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 16:27:45,963 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 16:27:46,175 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 16:27:46,239 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 16:27:46,240 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 16:27:46,457 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 16:27:46,591  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 16:27:53,212  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 18:06:17,897 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 18:06:17,905 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 18:06:18,408  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 18:06:18,409  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 18:06:18,409  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 18:06:18,639  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 18:06:18,644  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 18:06:18,689 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 18:06:18,950 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 18:06:19,017 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 18:06:19,018 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 18:06:19,249 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 18:06:19,386  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 18:06:25,753  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 18:29:35,814 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 18:29:35,822 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 18:29:36,304  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 18:29:36,304  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 18:29:36,304  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 18:29:36,511  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 18:29:36,514  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 18:29:36,555 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 18:29:36,804 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 18:29:36,868 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 18:29:36,869 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 18:29:37,075 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 18:29:37,201  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 18:29:53,161  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 18:29:53,578 ERROR [jsp]:175 ---- Servlet.service() for servlet [jsp] threw exception
+javax.el.PropertyNotFoundException: Property [getContextPath] not found on type [org.apache.catalina.core.ApplicationHttpRequest]
+	at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260)
+	at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:212)
+	at javax.el.BeanELResolver.property(BeanELResolver.java:333)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:92)
+	at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:169)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190)
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:701)
+	at org.apache.jsp.WEB_002dINF.views.index_jsp._jspService(index_jsp.java:122)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-26 18:29:53,586 ERROR [dispatcherServlet]:175 ---- Servlet.service() for servlet [dispatcherServlet] in context with path [/urlInfo] threw exception [An exception occurred processing [/WEB-INF/views/index.jsp] at line [7]
+
+4: <html lang="en">
+5: <head>
+6:     <meta charset="UTF-8">
+7:     <link rel="stylesheet" href="${pageContext.request.getContextPath}/static/css/element-ui.css"/>
+8:     <script type="text/javascript" src="${pageContext.request.getContextPath}/static/js/vue.js"></script>
+9:     <script type="text/javascript" src="${pageContext.request.getContextPath}/static/js/vue-resource.min.js"></script>
+10:     <script type="text/javascript" src="${pageContext.request.getContextPath}/static/js/element-ui.js"></script>
+
+
+Stacktrace:] with root cause
+javax.el.PropertyNotFoundException: Property [getContextPath] not found on type [org.apache.catalina.core.ApplicationHttpRequest]
+	at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260)
+	at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:212)
+	at javax.el.BeanELResolver.property(BeanELResolver.java:333)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:92)
+	at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:169)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190)
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:701)
+	at org.apache.jsp.WEB_002dINF.views.index_jsp._jspService(index_jsp.java:122)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-26 18:56:09,126 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2020-03-26 18:56:09,136 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2020-03-26 18:56:09,643  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-26 18:56:09,644  INFO StandardService:173 ---- Starting service [Tomcat]
+2020-03-26 18:56:09,644  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 18:56:09,869  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 18:56:09,872  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2020-03-26 18:56:09,918 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2020-03-26 18:56:10,139 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-26 18:56:10,205 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2020-03-26 18:56:10,206 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2020-03-26 18:56:10,425 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2020-03-26 18:56:10,554  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2020-03-26 18:56:20,990  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
