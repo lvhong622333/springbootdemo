@@ -15,7 +15,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import com.alibaba.druid.pool.DruidDataSource;
 
 @Configuration
-@MapperScan(basePackages = "com.lvhong.web.mapper", sqlSessionTemplateRef = "masterSqlSessionTemplate")
+@MapperScan(basePackages = "com.lvhong.mapper", sqlSessionTemplateRef = "masterSqlSessionTemplate")
 public class MasterDataSourceConfiguration {
 	/**
 	 * 生成数据源.@Primary 注解声明为默认数据源

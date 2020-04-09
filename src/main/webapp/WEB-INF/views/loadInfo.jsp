@@ -48,7 +48,7 @@
                 <div class="grid-content">用户名</div>
             </el-col>
             <el-col :span="5">
-                <el-input v-model="userName" id="userName" placeholder="请输入内容"></el-input>
+                <el-input v-model="userName" id="userName" name="userName" placeholder="请输入用户名"></el-input>
             </el-col>
             <el-col :span="9">
                 <div class="grid-content"></div>
@@ -62,7 +62,7 @@
                 <div class="grid-content">密&nbsp;&nbsp;&nbsp;&nbsp;码</div>
             </el-col>
             <el-col :span="5">
-                <el-input id="password" v-model="password" placeholder="请输入内容" show-password>
+                <el-input id="password" v-model="password" name="password" placeholder="请输入密码" show-password>
                 </el-input>
             </el-col>
             <el-col :span="9">
@@ -74,11 +74,11 @@
                 <div class="grid-content"></div>
             </el-col>
             <el-col :span="4">
-                <el-button type="primary">登 录</el-button>
-                <el-button type="primary">注 册</el-button>
+                <el-button type="primary"  id="loginButton" @click="handler">登 录</el-button>
+                <el-button type="primary"  id="register" @click="register">注 册</el-button>
             </el-col>
             <el-col :span="10">
-                <div class="grid-content"></div>
+                <div class="grid-content" id="textId" style="color: red"></div>
             </el-col>
         </el-row>
     </div>
@@ -106,15 +106,35 @@
             userName: '',
             password: ''
         },
+        created() {
+            document.onkeydown = function (e) {
+
+                if (e.keyCode === 13) {
+                    document.getElementById('loginButton').click();
+                }
+            }
+        },
         methods: {
-            query: function () {
+            handler: function () {
                 //发送get请求
-                this.$http.get('/urlInfo/loadInfo').then(function (res) {
-                    debugger;
-                    document.getElementById('textId').innerHTML = res.bodyText;
+                this.$http.post('/urlInfo/loadInfo', {
+                    userName: this.userName,
+                    password: this.password
+                }, {emulateJSON: true}).then(function (res) {
+                    if(res.bodyText == '/homepage'){
+                        window.location.href = '${pageContext.request.getContextPath()}' + res.bodyText;
+                    }else{
+                        this.$alert(res.data.msg, '提示', {
+                            confirmButtonText: '确定'
+                        })
+                    }
+
                 }, function () {
                     console.log('请求失败处理');
                 });
+            },
+            register: function () {
+                window.location.href = '${pageContext.request.getContextPath()}/register' ;
             }
         }
     })
