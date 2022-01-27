@@ -33,7 +33,7 @@ public class LoginOnController {
     @ResponseBody
     public String logOn(@RequestParam("userName") String userName, @RequestParam("password") String password) {
         try {
-            userService.checkUserLogin(userName, password);
+          //  userService.checkUserLogin(userName, password);
         }catch (DataException e){
             return JSONObject.toJSONString(e);
         }

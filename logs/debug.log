@@ -417,3 +417,19 @@ javax.el.PropertyNotFoundException: Property [getContextPath] not found on type 
 2020-03-26 18:56:10,425 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
 2020-03-26 18:56:10,554  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
 2020-03-26 18:56:20,990  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 22:20:25,899 DEBUG MybatisAutoConfiguration:184 ---- Searching for mappers annotated with @Mapper
+2022-01-27 22:20:25,906 DEBUG MybatisAutoConfiguration:196 ---- Using auto-configuration base package 'com.lvhong'
+2022-01-27 22:20:26,584  INFO Http11NioProtocol:173 ---- Initializing ProtocolHandler ["http-nio-8081"]
+2022-01-27 22:20:26,585  INFO StandardService:173 ---- Starting service [Tomcat]
+2022-01-27 22:20:26,585  INFO StandardEngine:173 ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-01-27 22:20:26,874  INFO TldScanner:173 ---- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 22:20:26,881  INFO [/urlInfo]:173 ---- Initializing Spring embedded WebApplicationContext
+2022-01-27 22:20:26,927 DEBUG InternalLoggerFactory:61 ---- Using SLF4J as the default logging framework
+2022-01-27 22:20:27,148 DEBUG LogFactory:135 ---- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-01-27 22:20:27,243 DEBUG SqlSessionFactoryBean:497 ---- Parsed configuration file: 'class path resource [mapper/config/mybatis-config.xml]'
+2022-01-27 22:20:27,244 DEBUG SqlSessionFactoryBean:534 ---- Property 'mapperLocations' was not specified or no matching resources found
+2022-01-27 22:20:27,541 DEBUG MybatisAutoConfiguration:234 ---- No org.mybatis.spring.mapper.MapperFactoryBean found.
+2022-01-27 22:20:27,782  INFO Http11NioProtocol:173 ---- Starting ProtocolHandler ["http-nio-8081"]
+2022-01-27 22:20:28,366  INFO [/urlInfo]:173 ---- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 22:20:28,516  INFO DruidDataSource:928 ---- {dataSource-1,my_test} inited
+2022-01-27 22:20:44,218  INFO DruidDataSource:1823 ---- {dataSource-1} closed

@@ -1,6 +1,6 @@
 package com.lvhong.service;
 
-import com.lvhong.dao.TmSysUser;
+//import com.lvhong.dao.TmSysUser;
 
 /**
  * @author lvhong
@@ -9,9 +9,9 @@ import com.lvhong.dao.TmSysUser;
  * @description
  **/
 public interface UserService {
-    void registerUserInfo(TmSysUser tmSysUser);
+//    void registerUserInfo(TmSysUser tmSysUser);
+//
+//    Integer checkUserOrMobile(TmSysUser user);
 
-    Integer checkUserOrMobile(TmSysUser user);
-
-    void checkUserLogin(String userName, String password);
+//    void checkUserLogin(String userName, String password);
 }
